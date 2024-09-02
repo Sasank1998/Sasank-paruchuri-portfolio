@@ -27,3 +27,35 @@
 .scrollbar-hide::-webkit-scrollbar{
     display: none;
 }
+.gap-6 {
+    gap: 0.5rem;
+}
+.img564{
+height: auto;
+}
+.wfit{
+    object-fit: cover;
+}
+.ownwidth{
+    
+}
+.from-bodyColor {
+    box-shadow: 0px 7px 6px 0px black;
+    --tw-gradient-from: #212428;
+    --tw-gradient-to: rgb(33 36 40 / 0);
+    --tw-gradient-stops: #422131, #303a4f;
+}
+.flex906{
+    display: flex;
+    flex-direction: row;
+    width: 100% !important;
+}
+.h-64 {
+    height: auto;
+}
+.tborder23 {
+    border: none !important;
+}
+.tborder23:hover {
+border: none !important;
+}

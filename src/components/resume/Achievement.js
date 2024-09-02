@@ -11,53 +11,53 @@ const Achievement = () => {
     >
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Company Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2023 - Present</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Achievements</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="Completed Three Major Projects"
+            subTitle="Matrical Technologies"
+            result="2023"
+            des="Successfully delivered Three significant projects: Study-X, Salon Management, and Payroll Management, with key contributions to Payroll Management and Salon Management."
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="Design and CSS Responsiveness"
+            subTitle="Matrical Technologies"
+            result="2023"
+            des="Led the design and CSS responsiveness for Payroll Management and Salon Management projects, ensuring a seamless user experience."
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="Full Stack Development"
+            subTitle="Matrical Technologies"
+            result="2023"
+            des="Handled the backend using Node.js and MongoDB for Payroll Management and Salon Management, demonstrating proficiency in full stack development."
           />
         </div>
       </div>
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
+          <p className="text-sm text-designColor tracking-[4px]">2019 - 2022</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="MERN Full Stack Developer"
+            subTitle="Matrical Technologies - (2023 - Present)"
+            result="Bengaluru, India"
+            des="Worked on Three major projects: Study-X, Salon Management, and Payroll Management. Played a key role in the design and development of the Payroll Management and Salon Management systems, handling both front-end and back-end tasks."
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="Sr. Business Associate"
+            subTitle="Urbanrise Pvt Ltd - (2021 - 2022)"
+            result="Hyderabad, India"
+            des="Responsible for overseeing business operations, developing strategies to improve client engagement, and driving sales performance."
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="Business Associate"
+            subTitle="Aliens Space Station - (2019 - 2021)"
+            result="Hyderabad, India"
+            des="Focused on sales and marketing strategies to enhance client acquisition and retention, contributing to the growth of the company's customer base."
           />
         </div>
       </div>

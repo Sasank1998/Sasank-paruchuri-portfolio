@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
+import { logo } from "../../assets/index";
 
 const Footer = () => {
   return (
@@ -58,7 +58,7 @@ const Footer = () => {
       </div>
       <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
-          RESOURCES
+          Resources
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
           <li>
@@ -95,7 +95,7 @@ const Footer = () => {
       </div>
       <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
-          DEVELOPERS
+          Developers
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-6">
           <li>
@@ -134,4 +134,4 @@ const Footer = () => {
   );
 }
 
-export default Footer
+export default Footer;
