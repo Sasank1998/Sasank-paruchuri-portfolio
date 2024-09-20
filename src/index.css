@@ -59,3 +59,16 @@ height: auto;
 .tborder23:hover {
 border: none !important;
 }
+@keyframes popupShow {
+    from {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  .flex89{
+    display: flex;
+  }

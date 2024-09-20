@@ -8,7 +8,7 @@ const ProjectsCard = ({ title, des, src, onClick }) => {
     height: 'auto',
     borderRadius: '8px',
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-    background: '#1c1e22',
+    background: '#343a40',
     // background: 'linear-gradient(to right, #f0f0f0, #e0e0e0)',
     transition: 'background-color 1s',
     cursor: 'pointer',
@@ -23,11 +23,11 @@ const ProjectsCard = ({ title, des, src, onClick }) => {
   };
 
   const handleHover = (event) => {
-    event.currentTarget.style.backgroundColor = '#d0d0d0';
+    event.currentTarget.style.backgroundColor = '#737171';
   };
 
   const handleHoverOut = (event) => {
-    event.currentTarget.style.backgroundColor = '#1c1e22';
+    event.currentTarget.style.backgroundColor = '#343a40';
   };
 
   return (
@@ -46,7 +46,7 @@ const ProjectsCard = ({ title, des, src, onClick }) => {
       </div>
       <div style={{ marginTop: '1rem' }}>
         <h3 style={{ fontSize: '1rem', textTransform: 'uppercase', color: '#e52929' }}>{title}</h3>
-        <p style={{ fontSize: '0.875rem', marginTop: '0.5rem', color: '#555' }}>{des}</p>
+        <p style={{ fontSize: '1rem', marginTop: '0.5rem', color: 'rgb(167 159 159)' }}>{des}</p>
       </div>
     </div>
   );
