@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { logo } from "../../assets/index";
 import { navLinksdata } from '../../constants';
+import { BsTwitterX } from "react-icons/bs";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -78,7 +79,7 @@ const Navbar = () => {
                     <FaFacebookF />
                   </span>
                   <span className="bannerIcon">
-                    <FaTwitter />
+                  <BsTwitterX />
                   </span>
                   <span className="bannerIcon">
                     <FaLinkedinIn />

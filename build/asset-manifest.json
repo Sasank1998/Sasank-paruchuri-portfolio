@@ -1,19 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8b03168.css",
-    "main.js": "/static/js/main.9a7265ac.js",
-    "static/media/bannerImg.png": "/static/media/bannerImg.caa3d5e2872e84d77cf2.png",
+    "main.css": "/static/css/main.14a4439b.css",
+    "main.js": "/static/js/main.1d9f8905.js",
+    "static/media/pms5.png": "/static/media/pms5.05bd348aa2d6d720cda5.png",
+    "static/media/pms3.png": "/static/media/pms3.6d2815daa695e028c5f7.png",
+    "static/media/pms4.png": "/static/media/pms4.b6ded487701c0c7545fc.png",
+    "static/media/pms6.png": "/static/media/pms6.71a2ec05fce6a9ae5d16.png",
+    "static/media/pms2.png": "/static/media/pms2.c285ff251bc0d1120812.png",
+    "static/media/logo.png": "/static/media/logo.bf34106967ad6a7e05e4.png",
+    "static/media/bannerImg.png": "/static/media/bannerImg.135abfe033a1245414fc.png",
+    "static/media/study-x2.png": "/static/media/study-x2.769982a9eacf999bbc16.png",
+    "static/media/salon1.jpg": "/static/media/salon1.4fac793b86f97c60e92c.jpg",
+    "static/media/study-x1.png": "/static/media/study-x1.f13d229d9c5c05b5d1d3.png",
+    "static/media/pms1.jpg": "/static/media/pms1.616e36c863cc4c4ec27e.jpg",
+    "static/media/salon3.png": "/static/media/salon3.67b01347266f0045989d.png",
+    "static/media/salon5.png": "/static/media/salon5.93872fdda887c5b988bd.png",
+    "static/media/salon2.png": "/static/media/salon2.7127fe9866a63228083d.png",
+    "static/media/salon6.png": "/static/media/salon6.e605262f14660b6e590b.png",
+    "static/media/study-x3.png": "/static/media/study-x3.4ffc289a6feebe1c441a.png",
+    "static/media/salon7.png": "/static/media/salon7.510cfd26f02594c976ea.png",
+    "static/media/salon4.png": "/static/media/salon4.b2ec4f443effeba3871a.png",
+    "static/media/study-x4.png": "/static/media/study-x4.987dc3990126b178d544.png",
+    "static/media/study-x5.png": "/static/media/study-x5.22c8199c008ddac63b36.png",
+    "static/media/study-x6.png": "/static/media/study-x6.d522131f7cfee0b2882f.png",
     "static/media/contactImg.png": "/static/media/contactImg.8ddfbfd11798f881db54.png",
     "static/media/testimonialOne.png": "/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
-    "static/media/projectThree.jpeg": "/static/media/projectThree.47442baa3158613330ab.jpeg",
     "static/media/testimonialTwo.png": "/static/media/testimonialTwo.c6df2773c486964035d9.png",
-    "static/media/projectTwo.jpg": "/static/media/projectTwo.1fabe2c8c93632187ee6.jpg",
     "index.html": "/index.html",
-    "main.d8b03168.css.map": "/static/css/main.d8b03168.css.map",
-    "main.9a7265ac.js.map": "/static/js/main.9a7265ac.js.map"
+    "main.14a4439b.css.map": "/static/css/main.14a4439b.css.map",
+    "main.1d9f8905.js.map": "/static/js/main.1d9f8905.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8b03168.css",
-    "static/js/main.9a7265ac.js"
+    "static/css/main.14a4439b.css",
+    "static/js/main.1d9f8905.js"
   ]
 }
