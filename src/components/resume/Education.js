@@ -25,7 +25,7 @@ const Education = () => {
           <ResumeCard
             title="Intermediate Education"
             subTitle="Sri Chaitanya Jr College (2013 - 2015)"
-            result="85%"
+            result="85.4%"
             des="Focused on Mathematics, Physics, and Chemistry, providing a strong foundation for engineering studies and problem-solving skills."
           />
           <ResumeCard
