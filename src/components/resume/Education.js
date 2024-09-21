@@ -19,7 +19,7 @@ const Education = () => {
           <ResumeCard
             title="B-Tech Mechanical Engineering"
             subTitle="Sree Venkateswara College of Engineering (2015 - 2019)"
-            result="64%"
+            result="61%"
             des="Completed a comprehensive program focused on Mechanical Engineering principles, preparing for roles in various engineering sectors."
           />
           <ResumeCard
