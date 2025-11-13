@@ -1,7 +1,7 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF,  FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiFigma, SiMongodb, SiExpress   } from "react-icons/si";
+import { FaFacebookF, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { SiCsharp, SiDotnet, SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 
@@ -19,7 +19,7 @@ const LeftBanner = () => {
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
           Hi, I'm{" "}
-          <span className="text-designColor capitalize">Sasank Paruchuri</span>
+          <span className="text-designColor capitalize">Sasank Paruchoori</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -30,14 +30,20 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I leverage the power of the MERN stack to craft seamless and intuitive
-          web applications. My approach integrates animation as an essential
-          dimension to enhance user experience, guiding users through each
-          interaction with clarity and ease. Each motion element is purposefully
-          designed not just to add flair, but to create a more engaging and
-          user-friendly experience. With a focus on both frontend and backend
-          development, I ensure that every application is not only visually
-          appealing but also robust and scalable.
+          I create modern, high-performance web applications by blending the
+          power of .NET on the backend with the elegance and flexibility of
+          React on the frontend. I focus on building clean and secure APIs,
+          scalable architectures, and smooth data flow that keeps applications
+          reliable and fast. On the UI side, I bring ideas to life with
+          intuitive layouts, purposeful animations, and seamless interactions
+          that make the experience feel natural and engaging. Every screen is
+          designed with clarity, responsiveness, and performance in mind,
+          ensuring users feel confident and comfortable as they navigate.
+          Whether I’m developing complex modules, optimizing load times, or
+          crafting user-centric workflows, my goal is to deliver applications
+          that are visually appealing, technically strong, and built for
+          long-term growth. I strive to create digital experiences that are not
+          just functional, but memorable and enjoyable.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -46,51 +52,52 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-          <a 
-            href="https://www.facebook.com/your-profile" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="bannerIcon"
-          >
-            <FaFacebookF />
-          </a>
-          <a 
-            href="https://twitter.com/your-profile" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="bannerIcon"
-          >
-            <BsTwitterX />
-          </a>
-          <a 
-            href="https://www.linkedin.com/in/your-profile" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="bannerIcon"
-          >
-            <FaLinkedinIn />
-          </a>
-        </div>
+            <a
+              href="https://www.facebook.com/your-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bannerIcon"
+            >
+              <FaFacebookF />
+            </a>
+            <a
+              href="https://twitter.com/your-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bannerIcon"
+            >
+              <BsTwitterX />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/your-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bannerIcon"
+            >
+              <FaLinkedinIn />
+            </a>
+          </div>
         </div>
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             BEST SKILL ON
           </h2>
-          <div className="flex gap-4">
+          <div className="flex gap-4"> 
+            <span className="bannerIcon"> 
+              <FaReact /> 
+            </span>
+            <span className="bannerIcon"> 
+              <FaNodeJs />
+            </span>
+
             <span className="bannerIcon">
-              <FaReact />
+              <SiCsharp />
             </span>
             <span className="bannerIcon">
-            <FaNodeJs />
+              <SiDotnet />
             </span>
             <span className="bannerIcon">
-            <SiMongodb />
-            </span>
-            <span className="bannerIcon">
-            <SiExpress />
-            </span>
-            <span className="bannerIcon">
-              <SiFigma />
+              <SiMongodb />
             </span>
           </div>
         </div>
