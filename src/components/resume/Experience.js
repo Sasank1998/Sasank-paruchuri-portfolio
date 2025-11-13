@@ -11,16 +11,19 @@ const Experience = () => {
     >
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2019 - Present</p>
+          <p className="text-sm text-designColor tracking-[4px]">
+            2019 - Present
+          </p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="MERN Full Stack Developer"
-            subTitle="Matrical Technologies - (2023 - Present)"
-            result="Bengaluru, India"
-            des="Worked on Three major projects: Study-X, Salon Management, and Payroll Management. Played a key role in the design and development of the Payroll Management and Salon Management systems, handling both front-end and back-end tasks."
+            title="Full Stack Developer (.NET & React)"
+            subTitle="HCLTech - (2025 - Present)"
+            result="Hyderabad / Bengaluru, India"
+            des="Contributing to the development of scalable and secure web applications using .NET for backend services and React for frontend development. Involved in designing APIs, improving UI performance, and ensuring clean, maintainable code across modules."
           />
+
           <ResumeCard
             title="Sr. Business Associate"
             subTitle="Urbanrise Pvt Ltd - (2021 - 2022)"

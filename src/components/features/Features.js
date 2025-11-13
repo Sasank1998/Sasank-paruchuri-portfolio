@@ -1,8 +1,9 @@
-import React from 'react';
-import { FaServer, FaMobile, FaGlobe } from "react-icons/fa";
-import { SiJavascript, SiReact, SiMongodb } from "react-icons/si";
-import Title from '../layouts/Title';
-import Card from './Card';
+import React from "react";
+import { SiReact, SiDotnet, SiCsharp, SiMongodb } from "react-icons/si";
+import { FaMobile, FaGlobe } from "react-icons/fa";
+// import { SiDotnet } from "react-icons/si";
+import Title from "../layouts/Title";
+import Card from "./Card";
 
 const Features = () => {
   return (
@@ -14,43 +15,47 @@ const Features = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
           title="Full Stack Development"
-          des="Building robust, scalable web applications using the MERN stack: MongoDB, Express.js, React.js, and Node.js."
-          icon={<SiJavascript />}
-          detailedDes="Full Stack Development involves creating both the frontend and backend of a web application. I use the MERN stack to build dynamic and responsive applications. This includes designing databases, developing APIs, and ensuring a smooth user experience across different devices and platforms."
+          des="Building scalable and modern web applications using React for the frontend and .NET for powerful, secure backend development."
+          icon={<SiDotnet />}
+          detailedDes="Full Stack Development involves building both the frontend and backend of a web application. I use React to create fast, interactive user interfaces and .NET to build secure, scalable APIs and backend services. This includes handling database integration, implementing business logic, and ensuring smooth, responsive user experiences across all devices."
         />
         <Card
           title="Frontend Development"
-          des="Crafting responsive and dynamic user interfaces with React.js, ensuring a seamless user experience."
+          des="Crafting modern, responsive, and high-performance user interfaces with React."
           icon={<SiReact />}
-          detailedDes="Frontend Development focuses on the user interface and user experience. Using React.js, I create interactive and visually appealing interfaces that adapt to various screen sizes. This includes implementing state management, optimizing performance, and integrating with backend services."
+          detailedDes="Frontend Development focuses on building smooth, interactive, and visually engaging user interfaces. Using React, I create component-based architectures, manage state efficiently, optimize performance, and ensure responsiveness across all devices while integrating seamlessly with backend APIs."
         />
+
         <Card
           title="Backend Development"
-          des="Developing server-side logic and APIs with Node.js and Express.js, providing efficient and secure data handling."
-          icon={<FaServer />}
-          detailedDes="Backend Development involves building the server-side logic of applications. With Node.js and Express.js, I create robust and scalable APIs that handle data processing, authentication, and integration with databases. This ensures that the application performs efficiently and securely."
+          des="Building secure, scalable backend services and APIs using .NET Core and C#."
+          icon={<SiCsharp/>}
+          detailedDes="Backend Development involves creating robust server-side logic, REST APIs, and business layers. With .NET Core and C#, I build secure, high-performance backend systems, implement authentication, handle data processing, and ensure smooth communication between the frontend and database."
         />
+
         <Card
           title="Database Management"
-          des="Designing and managing databases with MongoDB, optimizing for performance and scalability."
+          des="Designing and managing databases using SQL and MongoDB for performance and scalability."
           icon={<SiMongodb />}
-          detailedDes="Database Management involves designing and maintaining databases to ensure data integrity and performance. Using MongoDB, I structure data efficiently, create indexes for faster queries, and implement data validation rules. This supports the application's scalability and reliability."
+          detailedDes="Database Management includes structuring data, writing optimized queries, and ensuring reliability. I work with MongoDB and SQL databases to design schemas, create indexes, improve query performance, and maintain data integrity for scalable applications."
         />
+
         <Card
-          title="Mobile Development"
-          des="Creating mobile-friendly web applications, ensuring optimal performance across all devices."
+          title="Mobile-Friendly Development"
+          des="Creating responsive web applications optimized for all screen sizes and devices."
           icon={<FaMobile />}
-          detailedDes="Mobile Development focuses on creating web applications that are optimized for mobile devices. This includes responsive design techniques, touch-friendly interfaces, and performance optimization to ensure a smooth user experience on smartphones and tablets."
+          detailedDes="Mobile-Friendly Development focuses on designing interfaces that adapt seamlessly to smartphones, tablets, and desktops. I implement responsive layouts, touch-friendly interactions, and performance optimizations to ensure smooth user experience across all devices."
         />
+
         <Card
           title="Web Hosting & Deployment"
-          des="Deploying applications to the web, utilizing modern tools and platforms to ensure reliability and uptime."
+          des="Deploying React and .NET applications using modern CI/CD pipelines and cloud platforms."
           icon={<FaGlobe />}
-          detailedDes="Web Hosting & Deployment involves taking a web application from development to production. I use modern deployment tools and platforms to ensure the application is accessible on the web, with proper configurations for security, performance, and scalability."
+          detailedDes="Web Hosting & Deployment involves publishing applications to secure and reliable environments. I deploy .NET APIs and React frontends using platforms like Azure, Vercel, and Netlify, ensuring proper configurations for performance, security, logging, and scalability."
         />
       </div>
     </section>
   );
-}
+};
 
 export default Features;
